@@ -119,7 +119,7 @@ class Static_Wall_Appliance(fd_types.Assembly):
 class Countertop_Appliance(fd_types.Assembly):
     
     library_name = appliance_properties.LIBRARY_FOLDER_NAME
-    type_assembly = "NONE"
+    type_assembly = "PRODUCT"
     
     """ Path to blend file that contains a group of the appliance """
     appliance_path = ""
@@ -139,7 +139,7 @@ class Countertop_Appliance(fd_types.Assembly):
 class Object_Appliance(fd_types.Assembly):
     
     library_name = appliance_properties.LIBRARY_FOLDER_NAME
-    type_assembly = "NONE"
+    type_assembly = "PRODUCT"
     drop_id = appliance_properties.LIBRARY_NAME_SPACE + ".place_appliance_object"
     
     """ Path to blend file that contains a group of the appliance """
