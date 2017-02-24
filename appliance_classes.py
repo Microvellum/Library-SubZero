@@ -7,7 +7,6 @@ Stores all of the Logic, Product, and Insert Class definitions for appliances
 import os
 from mv import fd_types, unit
 from . import appliance_properties
-from . import cabinet_countertops
 
 MATERIAL_FILE = os.path.join(os.path.dirname(__file__),"materials","materials.blend")
 
