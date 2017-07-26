@@ -68,6 +68,7 @@ class Static_Wall_Appliance(fd_types.Assembly):
     
     library_name = appliance_properties.LIBRARY_FOLDER_NAME
     type_assembly = "PRODUCT"
+    mirror_y = True
     
     """ Path to blend file that contains a group of the appliance """
     appliance_path = ""
@@ -81,7 +82,7 @@ class Static_Wall_Appliance(fd_types.Assembly):
         assembly.set_name(get_file_name(self.appliance_path))
         self.width = assembly.obj_x.location.x
         self.height = assembly.obj_z.location.z
-        self.depth = assembly.obj_y.location.y
+        self.depth = -assembly.obj_y.location.y
         assembly.assign_material("Chrome",MATERIAL_FILE,"Chrome")
         assembly.assign_material("Stainless Steel",MATERIAL_FILE,"Stainless Steel")
         assembly.assign_material("Black Anodized Metal",MATERIAL_FILE,"Black Anodized Metal")

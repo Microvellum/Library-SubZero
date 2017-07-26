@@ -11,7 +11,7 @@ from . import appliance_classes
 REFRIGERATORS_PATH = os.path.join(os.path.dirname(__file__),"Refrigerators")
 
 #---------PRODUCT: REFRIGERATORS
-        
+
 class PRODUCT_SubeZero_ID_30F(appliance_classes.Static_Wall_Appliance):
     
     def __init__(self):
