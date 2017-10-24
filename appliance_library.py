@@ -148,24 +148,5 @@ class PRODUCT_SubZero_UC_15I(appliance_classes.Static_Wall_Appliance):
         self.category_name = "Ice Maker"
         self.assembly_name = "UC-15I"
         self.appliance_path = os.path.join(ICE_PATH,"SubZero UC-15I.blend") 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
         
